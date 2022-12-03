@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    font-size: 10rem;
+    max-width: 120rem;
+    margin: 20rem auto;
+    padding: 0 3.2rem;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.extra {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button {
+    padding: 3rem;
+    font-size: 5rem;
+}
+
+.reset {
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-left: -17rem;
+}
